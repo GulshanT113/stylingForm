@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e3e3;
+}
+
+.container{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+  
+
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f0a500;
+    text-align: start;
+}
+
+.firstcontainer{
+    width: 90%;
+    height: 30%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.firstcontaineraccount{
+    width: 100%;
+    height: 25%;
+    background-color: #f9f9f9;
+    margin: 5px;
+
+}
+.firstcontaineraccount input{
+    width: 89%;
+    padding: 12px;
+    margin-left: -3px;
+    background-color: #f9f9f9;
+    border-color:transparent;
+
+}
+.firstcontaineraccount i{
+    background-color: #f9f9f9;
+    padding: 12px;
+}
+::placeholder{
+    font-size: 15px;
+    color: gray;
+}
+.secondcontainer{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.secondsubone{
+    width: 50%;
+    height: 100%;
+   
+
+}
+.secondsubonemain{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.secondsubonefirst{
+    width: 30%;
+    height: 50%;
+    margin: 15px;
+
+
+}
+.secondsubonefirst input{
+    background-color: #f9f9f9;
+    color: gray;
+    width: 100%;
+    height: 100%;
+    border-color: transparent;
+
+}
+
+.secondsubtwo{
+    width: 50%;
+    height: 100%;
+
+}
+.secondsubonesecond{
+    width: 50%;
+    height: 70%;
+    background-color:#f9f9f9 ;
+
+
+
+}
+.secondsubonesecond p{
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.thirdcontainer{
+    width: 90%;
+    height: 35%;
+}
+
+.thirdcontainermain{
+    width: 100%;
+    height: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    
+
+}
+.thirdsubone{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+
+}
+.thirdsubonecolor{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0a500;
+
+}
+.thirdsubonecolor p{
+    color: white;
+    font-size: 15px;
+
+}
+.thirdsubone p{
+    font-size: 15px;
+    color: gray;
+}
+
+.carddetails{
+    width: 100%;
+    height: 25%;
+    margin-top: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+
+    
+}
+.cardcvc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+}
+
+.cardcvc i{
+    padding: 12px;
+    background-color:#f9f9f9 ;
+
+     
+}
+.cardcvc input{
+    width: 80%;
+    padding: 10px;
+    border-color: transparent;
+    background-color:#f9f9f9 ;
+}
+
+.cardcvcone{
+    width:50%;
+    height: 80%;
+
+}
+.cardcvcone select{
+    width: 100%;
+    padding: 10px;
+    background-color:#f9f9f9 ;
+    font-size: 14px;
+    border-color: transparent;
+    
+
+}
+
+.fourthcontainer{
+    width: 90%;
+    height: 15%;
+
+}
+.inputcheckbox{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.inputcheckbox input{
+    margin-top: 5px;
+    height: 1em;
+    width: 1em;
+    border-radius: 10%;
+}
+
+.inputcheckbox label{
+    padding-left: 10px;
+    color: gray;
+}
